@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    fieldset{
+      border: solid green;
+      width: 400px;
+      height: 200px;
+      display: inline-block;
+    }
+  </style>
+
+</head>
+<body>
+  <script type="text/javascript" src="cookies.js"/>
+  </script>
+
+    <h1>La Casa Del Libro</h1>
+    <fieldset id="libros">
+      <legend>Libros</legend>
+      <ul>
+        <li><button type="button" name="button" onclick="almacenarCookie('libro1','1',1200)">+</button>Introducción a JavaScript</li>
+        <li><button type="button" name="button" onclick="almacenarCookie('libro2','1',1200)">+</button>Introducción al lenguaje PHP</li>
+        <li><button type="button" name="button" onclick="almacenarCookie('libro3','1',1200)">+</button>Introducción a jQuery</li>
+        <li><button type="button" name="button" onclick="almacenarCookie('libro4','1',1200)">+</button>Introducción a AJAX</li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <ul id="cesta">
+
+      </ul>
+    </fieldset>
+
+  <button type="button" name="button" onclick="verCesta()">Ver Cesta</button>
+  <button type="button" name="button" onclick="borrarCesta()">Borrar Cesta</button>
+
+
+
+</body>
+</html>

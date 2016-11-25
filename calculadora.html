@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="calculadora.css">
+	<title>EjemploJS1</title>
+</head>
+<body>
+
+	<section>
+		<div>
+			<h3>CASIO</h3>
+		</div>
+		<div>
+			<input type="text" name="texto" id="texto" value="">
+		</div>
+	  <div class="">
+	    <button type="button" name="sqrt" onclick="complexOperation(this.name)">SQRT</button>
+	    <button type="button" name="exp" onclick="complexOperation(this.name)">EXP</button>
+	    <button type="button" name="log" onclick="complexOperation(this.name)">LOG</button>
+	  </div>
+	  <div class="">
+	    <button type="button" name="sin" onclick="complexOperation(this.name)">SENO</button>
+	    <button type="button" name="cos" onclick="complexOperation(this.name)">COSENO</button>
+	    <button type="button" name="tan" onclick="complexOperation(this.name)">TAN</button>
+	  </div>
+	  <div class="">
+	    <button type="button" name="mc" onclick="mAscpects(this.name)">MC</button>
+	    <button type="button" name="7" onclick=addNumberToInput(this.name)>7</button>
+	    <button type="button" name="8" onclick=addNumberToInput(this.name)>8</button>
+	    <button type="button" name="9" onclick=addNumberToInput(this.name)>9</button>
+	    <button type="button" name="+" onclick=getValueInGlobalScope(this.name)>+</button>
+	  </div>
+	  <div class="">
+	    <button type="button" name="mr" onclick=mAscpects(this.name)>MR</button>
+	    <button type="button" name="4" onclick=addNumberToInput(this.name)>4</button>
+	    <button type="button" name="5" onclick=addNumberToInput(this.name)>5</button>
+	    <button type="button" name="6" onclick=addNumberToInput(this.name)>6</button>
+	    <button type="button" name="-" onclick=getValueInGlobalScope(this.name)>-</button>
+	  </div>
+	  <div class="">
+	    <button type="button" name="ms" onclick=mAscpects(this.name)>MS</button>
+	    <button type="button" name="1" onclick=addNumberToInput(this.name)>1</button>
+	    <button type="button" name="2" onclick=addNumberToInput(this.name)>2</button>
+	    <button type="button" name="3" onclick=addNumberToInput(this.name)>3</button>
+	    <button type="button" name="*" onclick=getValueInGlobalScope(this.name)>*</button>
+	  </div>
+	  <div class="">
+	    <button type="button" name="button" onclick=doTheOperation()>=</button>
+	    <button type="button" name="0"onclick=addNumberToInput(this.name)>0</button>
+	    <button type="button" name="button"onclick="writeDot()">.</button>
+	    <button type="button" name="clear" onclick=clearInput()>CLEAR</button>
+	    <button type="button" name="/" onclick=getValueInGlobalScope(this.name)>/</button>
+	  </div>
+</section>
+	<script type="text/javascript" src="calculadora.js"></script>
+</body>
+</html>
